@@ -1,9 +1,8 @@
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in).useLocale(Locale.US);
+        Scanner s = new Scanner(System.in);
 
         System.out.print("Enter a: ");
         double a = s.nextDouble();
