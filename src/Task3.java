@@ -12,7 +12,6 @@ public class Task3 {
         double c = s.nextDouble();
 
         if (a == 0) {
-            s.close();
             return;
         }
 
@@ -42,6 +41,5 @@ public class Task3 {
                 break;
         }
 
-        s.close();
     }
 }
